@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1da07d71b3.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class= "container border">
+        <div class= "row border"><h1>Payment for example</h1>
+        </div>
+        
+        <form>   
+            <div class= "row">
+                <div class="col-3">
+                    <label for="card">Card #</label>
+                    <input class="form-control" id="card" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                </div>
+                <div class="col-3 offset-2">
+                <label for="cvc">CVC #</label>
+                    <input class="form-control" id="card" type="tel" inputmode="numeric" pattern="[0-9\s]{3}" autocomplete="cc-number" maxlength="3" placeholder="000">
+                </div>
+                <div class="col-4">
+                        <label for="inputAmount">Amount</label>
+                        <input type="number" class="form-control" id="inputZip">
+                    </div>
+
+
+            </div>
+        </form>
+
+
+
+        <form>
+            <div class="row">
+                <div class="col-6">First name
+                <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-6">Last name
+                <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+        </form>
+
+
+        <form>    
+            <div class= "row">
+                    <div class="col-6"> City
+                        <input type="text" class="form-control" placeholder="City"/>
+                    </div>
+                    
+                    <div class="col-3">
+                        <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                        <option>...</option>
+                            </select>
+                    </div>
+
+                    <div class="col-3">
+                        <label for="inputPostale">Postale Code</label>
+                        <input type="number" class="form-control" id="inputPostale">
+                    </div>
+            </div>
+        </form>
+
+
+        <form>
+            <div class= "row">
+                    <div class="col-6">
+                        <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"></label><i class="fab fa-cc-mastercard"></i>
+                        </div>
+                        <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2"></label><i class="fab fa-cc-visa"></i>
+                        </div>
+                        <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"></label><i class="fab fa-cc-diners-club"></i>
+                        </div>
+                        <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2"></label><i class="fab fa-cc-amex"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-6"> Message
+                        <textarea name="comments">
+                    </div>
+            </div>
+        </form>
+
+
+        <form>
+            <div class="row">
+                <div class="col-2">
+                    <button type="button" class="btn btn-success">Success</button>
+                </div>
+            </div>
+        </form>
+        
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
